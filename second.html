@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src=""></script>
+  <link href='https://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="styles2.css"></style>
+</head>
+<body>
+	<header>
+	    <ul>
+	      <li><img src="up.png"></li>
+	      <li><span class="coursename">PG Diploma in Software Development - Dec 2017</li>
+	      <span class="uppernav"> 
+	        <li><a href="#">HOME</a></li>
+	        <li><a href="#">PROGRAM</a></li>
+	        <li><a href="#">DISCUSSION</a></li>
+	      </span>
+	      <span class="icons">
+	        <li><img src="bell.png"></li>
+	      </span>
+	    </ul>
+  	</header>
+  	<div class="heading">
+  	</div>
+  	<div class="center">
+  		<div class="subtopic">
+			<h5>Object Oriented programming > Module1</h5>
+			<h2>Variables and Datatypes</h2>
+		</div>
+	
+		<div class= "block1">
+			<h5>Module Progress</h5>
+			<h4><b>0% completed</b></h4>
+			<div class="progress">
+			</div>
+		</div>
+
+		<h5><span class="session">SESSIONS</h5>
+
+		<div class="collapsible">
+			<h5>Session 1</h5>
+			<h4>Pre-Requisite Introduction</h4>
+		</div>
+		<div class="content">
+		  <ul>
+				<li>Overview</li>
+				<li>Overview</li>
+				<li>Overview</li>
+			</ul>
+		</div>
+
+		<div class= "collapsible">
+			<h5>Session 2</h5>
+			<h4>Pre-Requisite Introduction</h4>
+		</div>
+		<div class= "content">
+			<ul>
+				<li>Overview</li>
+				<li>Overview</li>
+				<li>Overview</li>
+				<li>Overview</li>
+				<li>Overview</li>
+				<li>Overview</li>
+			</ul>
+		</div>
+
+		<div class= "collapsible">
+			<h5>Session 3</h5>
+			<h4>Pre-Requisite Introduction</h4>
+		</div>
+		<div class= "content">
+			<ul>
+				<li>Overview</li>
+				<li>Overview</li>
+				<li>Overview</li>
+			</ul>
+		</div>
+
+		<div class= "collapsible">
+			<h5>Session 4</h5>
+			<h4>Pre-Requisite Introduction</h4>
+		</div>
+		<div class= "content">
+			<ul>
+				<li>Overview</li>
+				<li>Overview</li>
+				<li>Overview</li>
+			</ul>
+		</div>
+
+		<div class= "collapsible">
+			<h5>Session 5</h5>
+			<h4>Pre-Requisite Introduction</h4>
+		</div>
+		<div class= "content">
+			<ul>
+				<li>Overview</li>
+				<li>Overview</li>
+				<li>Overview</li>
+			</ul>
+		</div>
+
+		<div class= "collapsible">
+			<h5>Session 6</h5>
+			<h4>Pre-Requisite Introduction</h4>
+		</div>
+		<div class= "content">
+			<ul>
+				<li>Overview</li>
+				<li>Overview</li>
+				<li>Overview</li>
+			</ul>
+		</div>
+
+	</div>
+</body>
+<script>
+	var coll = document.getElementsByClassName("collapsible");
+	var i;
+
+	for (i = 0; i < coll.length; i++) {
+	  coll[i].addEventListener("click", function() {
+		  var content = this.nextElementSibling;
+		  if (content.style.maxHeight){
+		    content.style.maxHeight = null;
+		  } else {
+		    content.style.maxHeight = content.style.height = content.scrollHeight + "px";
+		  } 
+	  });
+	}
+</script>
+</html>

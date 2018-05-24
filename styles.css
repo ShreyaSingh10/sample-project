@@ -1,0 +1,341 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgba(204,204,204,0.5);
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+h1 {
+  font-size: 15px;
+  color: grey;
+  margin: 20px 0 0 0;
+}
+h2 {
+  color: grey;
+  font-size: 15px;
+  margin: 50px 0 0px 0;
+}
+p {
+  color: rgba(255,255,255,1);
+  background: black;
+  background: linear-gradient(bottom, rgba(255,255,0,1), rgba(255,255,0,.2));
+  background: -webkit-linear-gradient(bottom, rgba(255,255,0,1), rgba(255,255,0,.2));
+  background: -moz-linear-gradient(bottom, rgba(255,255,0,1), rgba(255,255,0,.2));
+  padding: 10px;
+  line-height: 28px;
+  bottom: 0;
+  margin: 0;
+  height: 50px;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+}
+img{
+  height:90px;
+  width:90px;
+  margin-left: -40px;
+  margin-top: -35px;
+  float: left; /* Stay in place *//* Stay on top */
+}
+
+li .coursename{
+  width: 200px;
+  float:left;
+}
+ul .uppernav{
+  padding-top: 100px;
+  margin-top: 120px;
+  margin-left: -1400px;
+}
+
+ul .icons li img{
+  width: 30px;
+  height:30px;
+  margin-left: 900px;
+  background-color: white;
+  width: 30px;
+  margin-top: -10px;
+  border-radius: 15px;
+}
+.show-description p {
+  height: 150px;
+}
+
+.show-description small {
+  opacity: 1;
+}
+
+.box{
+  width: 300px;
+  min-height: 300px;
+  margin: 40px 0 0 40px;
+  border-radius: 12px;
+}
+
+.first{
+  background: rgba(255,255,255,1);
+
+
+}
+.first p{
+  background: linear-gradient(bottom, rgba(0,0,128,0.7), rgba(0,0,128,0.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,128,0.7), rgba(0,0,128,0.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,128,0.7), rgba(0,0,128,0.4));
+  border-radius: 12px;
+  height: 80px;
+}
+.second{
+  background: rgba(255,255,255,1);
+}
+.second p{
+  background: linear-gradient(bottom, rgba(128,0,0,0.7), rgba(128,0,0,0.4));
+  background: -webkit-linear-gradient(bottom, rgba(128,0,0,0.7), rgba(128,0,0,0.4));
+  background: -moz-linear-gradient(bottom, rgba(128,0,0,0.7), rgba(128,0,0,0.4));
+  border-radius: 12px;
+  height: 80px;
+}
+.third{
+ background: rgba(255,255,255,1);
+}
+.third p{
+  background: linear-gradient(bottom, rgba(0,128,0,0.7), rgba(0,128,0,0.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,128,0,0.7), rgba(0,128,0,0.4));
+  background: -moz-linear-gradient(bottom, rgba(0,128,0,0.7), rgba(0,128,0,0.4));
+  border-radius: 12px;
+  height: 80px;
+}
+.fourth{
+  background: rgba(255,255,255,1);
+ 
+}
+.fourth p{
+  background: linear-gradient(bottom, rgba(225,72,149,0.9), rgba(225,72,149,0.4));
+  background: -webkit-linear-gradient(bottom, rgba(225,72,149,0.9), rgba(225,72,149,0.4));
+  background: -moz-linear-gradient(bottom, rgba(225,72,149,0.9), rgba(225,72,149,0.4));
+  border-radius: 12px;
+  height: 80px;
+}
+.fifth{
+  background: rgba(255,255,255,1);
+  
+}
+.fifth p{
+  background: linear-gradient(bottom, rgba(255,69,0,0.7), rgba(255,69,0,0.4));
+  background: -webkit-linear-gradient(bottom, rgba(255,69,0,0.7), rgba(255,69,0,0.4));
+  background: -moz-linear-gradient(bottom, rgba(255,69,0,0.7), rgba(255,69,0,0.4));
+  border-radius: 12px;
+  height: 80px;
+}
+.sixth{
+  background: rgba(255,255,255,1);
+}
+.sixth p{
+  background: linear-gradient(bottom, rgba(0,128,128,0.9), rgba(0,128,128,0.2));
+  background: -webkit-linear-gradient(bottom, rgba(0,128,128,0.9), rgba(0,128,128,0.2));
+  background: -moz-linear-gradient(bottom, rgba(0,128,128,0.9), rgba(0,128,128,0.2));
+  border-radius: 12px;
+  height: 80px;
+}
+.price {
+  float: left;
+}
+.all{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+#upper{
+  max-width: 1200px;
+  margin: 0 250px;
+}
+.inner{
+  margin-left: 20px;
+  margin-top: -10px;
+  color: grey;
+  position: absolute;
+  width: 250px;
+}
+#inner > div{
+  float:right;
+}
+.inner1{
+  float: left;
+}
+.inner2{
+  float: right;
+  margin-left: -50px;
+}
+.inner3{
+  float: left;
+  font-size: 12px;
+}
+button{
+  width: 90px;
+  height: 30px;
+  font-size: 15px;
+  margin-left: -10px;
+}
+hr{
+  margin-top: 100px;
+  color: grey;
+}
+
+h5{
+  margin-top: -10px;
+}
+body{
+  width: 100%;
+  background-color: rgba(0,0,0,0.1);
+}
+
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: white; 
+    overflow-x: hidden; /* Disable horizontal scroll */
+    margin-top: 100px;
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    border-style: ridge;
+    margin-top: 97px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 16px 8px 8px 16px;
+    font-size: 25px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+    height: 60px;
+    border-bottom: 1px solid #555;
+    text-align: left
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    background-color: rgba(194,225,247,0.4);
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0; 
+    font-size: 36px;
+    margin-top: -10px;
+    margin-left: 300px;
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    padding-bottom: 20px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    line-height: 40px;
+  }
+  h2 {
+    font-size: 20px;
+    margin: 20px 0 30px 0;
+  }
+  div {
+    margin: 20px 12px 0 12px;
+  }
+  p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  small {
+    font-size: 16px;
+  }
+}
+
+header {
+      text-align: center;
+      background: rgba(0,0,0,1);
+      background-size: cover;
+      color: white;
+      height: 90px;
+      margin-top: -10px;
+      margin-left: -10px;
+
+    }
+    a {
+      color: white;
+    }
+    h1 {
+      font-size: 45px;
+    }
+    ul {
+      background: rgba(0,0,0,0.5);
+      padding-top: 35px;
+
+    }
+    li {
+      display: inline;
+      padding: 10px 10px 10px 10px;
+      margin: 10px 10px 10px 10px;
+    }
+    ul li a{
+      text-decoration: none;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+
+.navheading{
+  display:inline;
+  height: 40px;
+}
+.navheading h3 {
+  text-align: center;
+  margin-top: -50px;
+  border-bottom: 1px solid black;
+  padding: 16px 20px 10px 16px;
+  margin-right: 20px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+}
+ul li:hover {
+    width: 150px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 20px;
+}
+
+    

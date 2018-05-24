@@ -1,215 +1,194 @@
 <!DOCTYPE html>
+<html>
 <head>
-<script src="/assets/jquery.js"></script>
-<link href='https://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
-<style>
-body {
-  font-family: helvetica, sans-serif;
- 
- 
-  
-}
-div {
-  height: 300px;
-  width: 300px;
-  text-align: left;
-  background-size: cover;
-  margin: 40px 0 0 40px;
-  border-radius: 12px;
-}
-h1 {
-  font-family: 'Times New Roman', cursive;
-  text-align: left;
-  font-size: 35px;
-  color: black;
-  margin: 20px 0 0 0;
-}
-h2 {
-  text-align: left;
-  color: black;
-  float: left;
-  font-size: 20px;
-  margin: 20px 0 10px 0;
-}
-p {
-  color: rgba(255,255,255,1);
-  background: black;
-  background: linear-gradient(bottom, rgba(255,255,0,1), rgba(255,255,0,.2));
-  background: -webkit-linear-gradient(bottom, rgba(255,255,0,1), rgba(255,255,0,.2));
-  background: -moz-linear-gradient(bottom, rgba(255,255,0,1), rgba(255,255,0,.2));
-  padding: 10px;
-  line-height: 28px;
-  bottom: 0;
-  margin: 0;
-  height: 50px;
-  transition: height .5s;
-  -webkit-transition: height .5s;
-  -moz-transition: height .5s;
-}
-
-small {
-  opacity: 0;
-}
-
-.show-description p {
-  height: 150px;
-}
-
-.show-description small {
-  opacity: 1;
-}
-
-.first{
-  background: rgba(255,153,204,.8);
-  min-width: 300px;
-
-}
-.second{
-  background: rgba(204,255,153,1);
-  min-width: 300px;
-}
-.third{
-  background: rgba(153,255,255,.8);
-  min-width: 300px;
-}
-.fourth{
-  background: rgba(255,178,102,.8);
-  min-width: 300px;
-}
-.fifth{
-  background: rgba(255,204,204,1);
-  min-width: 300px;
-}
-.fifth{
-  background: rgba(255,204,204,1);
-  min-width: 300px;
-}
-.sixth{
-  background: rgba(255,153,204,.8);
-  min-width: 300px;
-}
-.price {
-  float: left;
-}
-.all{
-  display: flex;
-  flex-wrap:nowrap;
-}
-
-@media (max-width: 500px) {
-  h1 {
-    font-size: 50px;
-    margin-top: 20px;
-    line-height: 40px;
-  }
-  h2 {
-    font-size: 20px;
-    margin: 20px 0 30px 0;
-  }
-  div {
-    margin: 20px 12px 0 12px;
-  }
-  p {
-    font-size: 20px;
-    line-height: 24px;
-  }
-  small {
-    font-size: 16px;
-  }
-}
-
-header {
-      text-align: center;
-      background: rgba(0,0,0,1);
-      background-size: cover;
-      color: white;
-      height: 60px;
-    }
-    a {
-      color: white;
-    }
-    h1 {
-      font-size: 45px;
-    }
-    ul {
-      padding-top: 20px;
-      background: rgba(0,0,0,0.5);
-    }
-    li {
-      display: inline;
-      padding: 0px 10px 0px 10px;
-    }
-    article {
-      max-width: 500px;
-      padding: 20px;
-      margin: 0 auto;
-    }
-    @media (max-width: 500px) {
-      h1 {
-        font-size: 36px;
-        padding: 5px;
-      }
-      li {
-        padding: 5px;
-        display: block;
-      }
-    }
-
-    
-</style>
-
+  <script src=""></script>
+  <link href='https://fonts.googleapis.com/css?family=Londrina+Shadow' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="styles.css"></style>
 </head>
 
 <body>
- <header>
+  <header>
     <ul>
-
-      <li><a href="#">HOME</a></li>
-      <li><a href="#">PROGRAM</a></li>
-      <li><a href="#">DISCUSSION</a></li>
+      <li><img src="up.png"></li>
+      <li><span class="coursename">PG Diploma in Software Development - Dec 2017</li>
+      <span class="uppernav"> 
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">PROGRAM</a></li>
+        <li><a href="#">DISCUSSION</a></li>
+      </span>
+      <span class="icons">
+        <li><img src="bell.png"></li>
+      </span>
     </ul>
   </header>
-<h2>Course 1</h2>
-<br>
-<br>
-<h1>Object Oriented programming</h1>
 
-<div class="all">
-<div class="first">
-  <p><span class="price">Introduction</span><br/> Welcome to the program  <br />
-  <small>Mustard sierra leone bologi kale chard beet greens black-eyed pea sorrel amaranth garlic tigernut spring onion summer purslane asparagus lentil. </small></p>
+  <div id="mySidenav" class="sidenav">
+    <div class= "navheading">
+      <h3>Topics</h3>
+      <a class="closebtn" onclick="closeNav()">&times;</a>
+    </div>
+    <a href="#">Object Oriented Programming</a>
+    <a href="#">Algorithms</a>
+    <a href="#">Software Engineering Frameworks and Server Side Development</a>
+    <a href="#">Distributed and Scalable Server Architecture</a>
+    <a href="#">Distributed and Scalable Server Architecture</a>
+    <a href="#">Distributed and Scalable Server Architecture</a>
+    <a href="#">Distributed and Scalable Server Architecture</a>
+    <a href="#">Distributed and Scalable Server Architecture</a>
+    <a href="#">Distributed and Scalable Server Architecture</a>
+    <a href="#">Distributed and Scalable Server Architecture</a>
+    <a href="#">Distributed and Scalable Server Architecture</a>
+    <a href="#">Distributed and Scalable Server Architecture</a>
+    <a href="#">Distributed and Scalable Server Architecture</a>
+    <a href="#">Distributed and Scalable Server Architecture</a>
 </div>
 
-<div class="second">
-  <p>Introduction to Python<span class="price">$22</span><br />
-  <small>Tri-tip capicola kielbasa salami brisket chicken rump strip steak drumstick. Meatloaf chuck boudin ribeye pork jowl. Andouille bacon jowl meatloaf pork loin prosciutto bresaola.</small></p>
-</div>
+<!-- Use any element to open the sidenav -->
+<span onclick="openNav()"><button>Courses</button></span>
+
+<div id="main">
+
   
-<div class="third">
-  <p>Data analysis in Excel<span class="price">$8</span><br />
-  <small>Lollipop tart cotton candy jelly-o carrot cake apple pie cupcake. Jelly-o bear claw ice cream candy canes.</small></p>
+  <div id= "upper">
+    <h2>Course 1</h2>
+    <h1>Object Oriented programming</h1>
+  </div>
+  <div class="all">
+    <a href="second.html"><div class="box first">
+      <p><span class="price">Introduction</span><br/> Welcome to the program <br/></p>
+      <div class="inner">
+        <div class="inner1">
+          <h6>Due Date</h6>
+          <h5>28th Dec '17</h5>
+        </div>
+        <div class="inner2">
+          <h6>Submissions</h6>
+          <h5>Nil</h5>
+        </div>
+        <br>
+        <span class="inner3">Get introduced to the world of computation and get started with programming.</span>
+        <br>
+        <hr>
+      </div>
+    </div>
+  </a>
+
+  <a href="second.html">
+    <div class="box second">
+      <p><span class="price">Introduction</span><br/> Welcome to the program <br/></p>
+      <div class="inner">
+        <div class="inner1">
+          <h6>Due Date</h6>
+          <h5>28th Dec '17</h5>
+        </div>
+        <div class="inner2">
+          <h6>Submissions</h6>
+          <h5>Nil</h5>
+        </div>
+        <br>
+        <span class="inner3">Get introduced to the world of computation and get started with programming.</span>
+        <br>
+        <hr>
+      </div>
+    </div>
+  </a>
+
+  <a href="second.html">
+    <div class="box third">
+      <p><span class="price">Introduction</span><br/> Welcome to the program <br/></p>
+      <div class="inner">
+        <div class="inner1">
+          <h6>Due Date</h6>
+          <h5>28th Dec '17</h5>
+        </div>
+        <div class="inner2">
+          <h6>Submissions</h6>
+          <h5>Nil</h5>
+        </div>
+        <br>
+        <span class="inner3">Get introduced to the world of computation and get started with programming.</span>
+        <br>
+        <hr>
+      </div>
+    </div>
+  </a>
+
+  <a href="second.html">
+    <div class="box fourth">
+      <p><span class="price">Introduction</span><br/> Welcome to the program <br/></p>
+      <div class="inner">
+        <div class="inner1">
+          <h6>Due Date</h6>
+          <h5>28th Dec '17</h5>
+        </div>
+        <div class="inner2">
+          <h6>Submissions</h6>
+          <h5>Nil</h5>
+        </div>
+        <br>
+        <span class="inner3">Get introduced to the world of computation and get started with programming.</span>
+        <br>
+        <hr>
+      </div>
+    </div>
+  </a>
+
+  <a href="second.html">
+    <div class="box fifth">
+      <p><span class="price">Introduction</span><br/> Welcome to the program <br/></p>
+      <div class="inner">
+        <div class="inner1">
+          <h6>Due Date</h6>
+          <h5>28th Dec '17</h5>
+        </div>
+        <div class="inner2">
+          <h6>Submissions</h6>
+          <h5>Nil</h5>
+        </div>
+        <br>
+        <span class="inner3">Get introduced to the world of computation and get started with programming.</span>
+        <br>
+        <hr>
+      </div>
+    </div>
+  </a>
+
+  <a href="second.html">
+    <div class="box sixth">
+      <p><span class="price">Introduction</span><br/> Welcome to the program <br/></p>
+      <div class="inner">
+        <div class="inner1">
+          <h6>Due Date</h6>
+          <h5>28th Dec '17</h5>
+        </div>
+        <div class="inner2">
+          <h6>Submissions</h6>
+          <h5>Nil</h5>
+        </div>
+        <br>
+        <span class="inner3">Get introduced to the world of computation and get started with programming.</span>
+        <br>
+        <hr>
+      </div>
+    </div>
+  </a>
+  </div>
 </div>
 
-<div class="fourth">
-  <p>Programming in R<span class="price">$8</span><br />
-  <small>Lollipop tart cotton candy jelly-o carrot cake apple pie cupcake. Jelly-o bear claw ice cream candy canes.</small></p>
-</div>
-
-<div class="fifth">
-  <p>Data Analysis in SQL<span class="price">$8</span><br />
-  <small>Lollipop tart cotton candy jelly-o carrot cake apple pie cupcake. Jelly-o bear claw ice cream candy canes.</small></p>
-</div>
-
-<div class="sixth">
-  <p>Analytics Problem solving<span class="price">$8</span><br />
-  <small>Lollipop tart cotton candy jelly-o carrot cake apple pie cupcake. Jelly-o bear claw ice cream candy canes.</small></p>
-</div>
-</div>
 
 <script>
-  $('div').on('click', function() {
-      $(this).toggleClass('show-description');
-  });
-</script>
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "350px";
+    document.getElementById("main").style.marginLeft = "350px";
+    document.getElementById("upper").style.marginLeft = "10px";
+}
 
+/* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+    document.getElementById("upper").style.marginLeft = "180px";
+    document.getElementById("upper").style.paddingLeft = "50px";
+}
+</script>
 </body>
